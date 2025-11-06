@@ -1,12 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="92">
+<modDesc descVersion="98">
     <author>yumi</author>
-    <version>1.0.0.0</version>
+    <version>1.0.1.0</version>
     <title>
         <en>Additional Field Info</en>
+        <es>Información Adicional del Campo</es>
         <fr>Informations De Champ Supplémentaires</fr>
         <de>Zusätzliche Feldinfo</de>
+		    <pl>Dodatkowe info pól</pl>
         <ru>Дополнительная Информация О Поле</ru>
+        <pt>Informações Adicionais do Campo</pt>
+        <cz>Dodatečné informace o poli</cz>
+        <br>Informações Adicionais do Campo</br>
+        <uk>Додаткова інформація про поля</uk>
+        <it>Informazioni aggiuntive sul campo</it>
     </title>
     <description>
         <en><![CDATA[
@@ -16,6 +23,14 @@ Description: Display additional info in the field info panel when walking throug
   - Price per ha (per ac) of the cultivated area on land you don't own
   - Potential harvest quantity and yield on ready to harvest fields
 GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
 ]]></en>
         <fr><![CDATA[
 Description: Affiche des informations supplémentaires dans le panneau lorsque vous parcourez un champ à pied:
@@ -24,14 +39,30 @@ Description: Affiche des informations supplémentaires dans le panneau lorsque v
   - Prix par ha (par ac) de la partie cultivée des terrains que vous ne possédez pas
   - Récolte et rendement potentiel dans les champs prêt à récolter
 GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Amélioration de la précision de Récolte et rendement potentiel
+  - Ajout des traductions cz, pt et br
+v1.0.1.0
+  - Ajout des stades de croissance
+  - Ajout des traductions uk et pl
 ]]></fr>
         <de><![CDATA[
-Beschreibung: Zeigen Sie zusätzliche Informationen im Feldinfofenster an, wenn Sie durch ein Feld gehen:
-  - Fläche jedes Feldes im aktuellen Land
-  - Aktuelle Landfläche
-  - Preis pro ha (pro ac) der Anbaufläche auf Land, das Sie nicht besitzen
-  - Potenzielle Erntemenge und Ertrag auf erntefertigen Feldern
+Beschreibung: Zeigt zusätzliche Informationen zum Feld im Infofenster an, wenn man durch ein Feld geht:
+  - Fläche jeder Ackerfläche im aktuellen Land
+  - Gesamte Landfläche des Gebiets
+  - Preis pro ha (pro ac) der Ackerfläche im aktuellen Land
+  - Potenzielle Erntemenge und potenzieller Ertrag erntereifer Felder
 GitHub-Link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Verbesserte Genauigkeit bei Potenzielle Erntemenge und potenzieller Ertrag
+  - Hinzufügen von cz-, pt- und br-Übersetzungen
+v1.0.1.0
+  - Hinzufügen von Informationen zum Wachstumsphase
+  - Hinzufügen von uk- und pl-Übersetzungen
 ]]></de>
         <pl><![CDATA[
 Opis: Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas chodzenia po polu:
@@ -40,6 +71,14 @@ Opis: Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas ch
   - Cenę za ha (za akr) terenu po kultywacji na nieposiadanych ziemiach 
   - Potencjalny zysk i przypuszczalną ilość zbiorów na polach gotowych na zbiory
 GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
 ]]></pl>
         <es><![CDATA[
 Descripción: Muestra información adicional sobre el campo que estás:
@@ -48,6 +87,14 @@ Descripción: Muestra información adicional sobre el campo que estás:
   - Precio por ha (per ac) del área cultivada en tierras que no son de su propiedad.
   - Cantidad potencial de cosecha y rendimiento en campos listos para cosechar
 GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
 ]]></es>
         <ru><![CDATA[
 Описание: Отображение дополнительной информации на панели информации о поле при проходе по полю:
@@ -56,7 +103,96 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
   - Цена за гектар (за акр) посевной площади на земле, которой вы не владеете
   - Возможное количество урожая и урожайность на готовых к уборке полях
 GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
 ]]></ru>
+		<pt><![CDATA[
+Descrição: apresenta informações adicionais no painel de informações do campo ao percorrer um campo:
+  - Área de cada campo no terreno atual
+  - Área atual do terreno
+  - Preço por ha (por ac) de área cultivada em terrenos que não são propriedade sua
+  - Quantidade potencial de colheita e rendimento em campos prontos para colheita
+GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
+]]></pt>
+        <cz><![CDATA[
+Popis: Zobrazení dodatečných informací o poli při procházení polem:
+ - Plocha každého pole v aktuálním pozemku
+ - Současná plocha pozemku
+ - Cena za ha (za akr) obdělávané plochy na pozemku, který nevlastníte
+ - Potenciální množství sklizně a výnos na polích připravených ke sklizni
+Odkaz na GitHub: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
+]]></cz>
+        <br><![CDATA[
+Descrição: Exibe informações adicionais no painel de informações do campo ao caminhar por um campo:
+  - Área de cada campo na pripriedade atual
+  - Área da propriedade atual
+  - Preço por ha (por ac) da área cultivada em propriedades que você não possui
+  - Quantidade e rendimento potenciais da colheita em campos prontos para a colheita
+GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
+]]></br>
+<uk><![CDATA[
+Опис: відображає додаткову інформацію на панелі інформації про поле, коли переміщаєтеся по ньому:
+
+  - Площа кожного поля на поточній земельній ділянці
+  - Поточна площа землі
+  - Ціна за га (за акр) оброблюваної площі на землі, якою ви не володієте
+  - Потенційна кількість врожаю та врожайність на полях, готових до збору врожаю
+Посилання на GitHub: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
+]]></uk>
+<it><![CDATA[
+Descrizione: Visualizza informazioni aggiuntive nel pannello quando si scorre un campo a piedi:
+  - Superficie di ciascun campo del terreno attuale
+  - Superficie del terreno attuale
+  - Prezzo per ettaro (per acro) della parte coltivata dei terreni che non possiedi
+  - Raccolto e resa potenziale nei campi pronti per la raccolta
+Link GitHub: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Miglioramento della precisione di Raccolto e resa potenziale
+  - Aggiunte le traduzioni cz, pt e br
+v1.0.1.0
+  - Aggiunte le fasi di crescita
+  - Aggiunte le traduzioni uk e pl
+]]></it>
     </description>
     <iconFilename>icon_additionalFieldInfo.dds</iconFilename>
     <multiplayer supported="true"/>
@@ -73,14 +209,24 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
             <pl>Powierzchnia pola %d</pl>
             <es>Area del campo %d</es>
             <ru>Площадь поля %d</ru>
+            <pt>Campo %d Área</pt>
+            <cz>Plocha pole %d</cz>
+            <br>Área do campo %d</br>
+            <uk>Площа поля %d</uk>
+            <it>Superficie del campo %d</it>
         </text>
         <text name="additionalFieldInfo_FARMLAND_AREA">
             <fr>Superficie du terrain</fr>
             <en>Land Area</en>
             <de>Landfläche</de>
             <pl>Powierzchnia terenu</pl>
-            <es>Area de la parcela</es>
+            <es>Area del Campo</es>
             <ru>Площадь участка</ru>
+			      <pt>Área do terreno</pt>
+            <cz>Plocha pozemku</cz>
+            <br>Área da propriedade</br>
+            <uk>Площа ділянки</uk>
+            <it>Superficie del terreno</it>
         </text>
         <text name="additionalFieldInfo_AREA">
             <fr>Superficie</fr>
@@ -89,6 +235,11 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
             <pl>Teren</pl>
             <es>Area</es>
             <ru>Площадь</ru>
+            <pt>Área</pt>
+            <cz>Plocha</cz>
+            <br>Área</br>
+            <uk>Ділянка</uk>
+            <it>Superficie</it>
         </text>
         <text name="additionalFieldInfo_PRICE_ON_AREA">
             <fr>Prix à l'%s</fr>
@@ -97,23 +248,50 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
             <pl>Cena za %s</pl>
             <es>Precio por %s</es>
             <ru>Поле(я) на участке по</ru>
+            <pt>Preço por %s</pt>
+            <cz>Cena za %s</cz>
+            <br>Preço por %s</br>
+            <uk>Ціна за %s</uk>
+            <it>Prezzo al %s</it>
         </text>
         <text name="additionalFieldInfo_POTENTIAL_HARVEST">
             <fr>Récolte potentielle</fr>
             <en>Potential harvest quantity</en>
             <de>Potenzielle Erntemenge</de>
             <pl>Potencjalny plon</pl>
-            <es>A cosechar aprox.</es>
+            <es>Cosecha Aproximada.</es>
             <ru>Возможный урожай</ru>
+            <pt>Quantidade potencial de colheita</pt>
+            <cz>Potenciální množství sklizně</cz>
+            <br>Quantidade potencial de colheita</br>
+            <uk>Потенційна кількість врожаю</uk>
+            <it>Raccolta potenziale</it>
         </text>
         <text name="additionalFieldInfo_POTENTIAL_YIELD">
             <fr>Rendement potentiel</fr>
             <en>Potential yield</en>
-            <de>Möglicher Ertrag</de>
-            <pl>Potencjalny zysk</pl>
-            <es>Posible rendimiento</es>
+            <de>Potenzieller Ertrag</de>
+            <pl>Potencjalny plon</pl>
+            <es>Rendimiento Potencial</es>
             <ru>Возможн. урожайность</ru>
+            <cz>Potenciální výnos</cz>
+            <pt>Rendimento potencial</pt>
+            <br>Rendimento potencial</br>
+            <uk>Потенційний врожай</uk>
+            <it>Rendita potenziale</it>
+        </text>
+		<text name="additionalFieldInfo_GROWTH_STAGE">
+            <fr>Stade de Croissance</fr>
+            <en>Growth Stage</en>
+            <de>Wachstumsphase</de>
+            <pl>Etap wzrostu</pl>
+            <es>Etapa de Crecimiento</es>
+            <ru>Стадия роста</ru>
+            <cz>Fáze růstu</cz>
+            <pt>Estágio de crescimento</pt>
+            <br>Estágio de crescimento</br>
+            <uk>Стадії зростання</uk> 
+            <it>Stadio di crescita</it>
         </text>
     </l10n>
-
 </modDesc>
